@@ -2,17 +2,17 @@
 DOMAIN-KEYWORD,speedtest.net
 DOMAIN-KEYWORD,fast.com
 
-* > Adult
+# > Adult
 DOMAIN-KEYWORD,91porn.com
 DOMAIN-KEYWORD,t66y.com
 DOMAIN-KEYWORD,xvideos.com
 DOMAIN-KEYWORD,nyaa.si
 
-* > Gallery
+# > Gallery
 DOMAIN-KEYWORD,500px.com
 DOMAIN-KEYWORD,yande.re
 
-* > Telegram
+# > Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
