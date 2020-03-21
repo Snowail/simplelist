@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,static.parastorage.com
 DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,wixmp.com
 
-# > 微软
+# > Microsoft
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,azure
 DOMAIN-KEYWORD,sharepoint.com
