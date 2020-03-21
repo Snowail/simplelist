@@ -1,18 +1,18 @@
-# > SpeedTest
+# SpeedTest
 DOMAIN-KEYWORD,speedtest.net
 DOMAIN-KEYWORD,fast.com
 
-# > Adult
+# Adult
 DOMAIN-KEYWORD,91porn.com
 DOMAIN-KEYWORD,t66y.com
 DOMAIN-KEYWORD,xvideos.com
 DOMAIN-KEYWORD,nyaa.si
 
-# > Gallery
+# Gallery
 DOMAIN-KEYWORD,500px.com
 DOMAIN-KEYWORD,yande.re
 
-# > Telegram
+# Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
@@ -20,12 +20,12 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 PROCESS-NAME,Telegram
 
-# > Deviantart
+# Deviantart
 DOMAIN-SUFFIX,static.parastorage.com
 DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,wixmp.com
 
-# > Microsoft
+# Microsoft
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,azure
 DOMAIN-KEYWORD,sharepoint.com
@@ -33,11 +33,11 @@ DOMAIN-KEYWORD,office365.com
 DOMAIN-KEYWORD,live.cn
 DOMAIN-KEYWORD,outlook.com
 
-# > Wacom
+# Wacom
 DOMAIN-SUFFIX,wacom.com
 PROCESS-NAME,Wacom Desktop Center
 
-# > Others
+# Others
 DOMAIN-KEYWORD,lastpass.com
 DOMAIN-KEYWORD,phaseone.com
 DOMAIN-SUFFIX,oraclecloud.com

@@ -1,7 +1,4 @@
-# (DomesticMedia)
-# https://github.com/lhie1/Rules/tree/master/Surge3/Media
-
-# > iQiyi
+# iQiyi
 USER-AGENT,QIYI*
 USER-AGENT,iQiYi*
 DOMAIN-KEYWORD,qiyi
@@ -11,7 +8,7 @@ IP-CIDR,101.227.0.0/16,no-resolve
 IP-CIDR,101.224.0.0/13,no-resolve
 IP-CIDR,119.176.0.0/12,no-resolve
 
-# > Bilibili
+# Bilibili
 USER-AGENT,*bili*
 DOMAIN-SUFFIX,acg.tv
 DOMAIN-SUFFIX,acgvideo.com
@@ -25,7 +22,7 @@ DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,im9.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 
-# > Netflix
+# Netflix
 USER-AGENT,Argo*
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -35,7 +32,7 @@ DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
 
-# > Bahamut
+# Bahamut
 USER-AGENT,Anime*
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -43,12 +40,12 @@ DOMAIN-SUFFIX,cdn.hinet.net
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,fna.fbcdn.net
 
-# > Hulu
+# Hulu
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 
-# > HBO NOW & HBO GO
+# HBO NOW & HBO GO
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,hbo.com
@@ -57,11 +54,11 @@ DOMAIN-SUFFIX,hboasia.com
 DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbogoasia.hk
 
-# > PBS
+# PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
 
-# > Spotify
+# Spotify
 USER-AGENT,Spotify*
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
