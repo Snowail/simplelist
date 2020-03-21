@@ -1,0 +1,31 @@
+### >  直连列表
+
+# > 代理软件
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
+PROCESS-NAME,ssr-local
+
+
+# > Alibaba
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,dingtalk.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,xiami.net
+
+# > Sina
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.cn
+
+# > Baidu
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubcr.com
+DOMAIN-SUFFIX,bdstatic.com
+
+# > plex
+PROCESS-NAME,Plex
