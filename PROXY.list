@@ -20,7 +20,7 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 PROCESS-NAME,Telegram
 
-# Deviantart
+# > Deviantart
 DOMAIN-SUFFIX,static.parastorage.com
 DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,wixmp.com
@@ -37,7 +37,7 @@ DOMAIN-KEYWORD,outlook.com
 DOMAIN-SUFFIX,wacom.com
 PROCESS-NAME,Wacom Desktop Center
 
-# Others
+# > Others
 DOMAIN-KEYWORD,lastpass.com
 DOMAIN-KEYWORD,phaseone.com
 DOMAIN-SUFFIX,oraclecloud.com
