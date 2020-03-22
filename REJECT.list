@@ -1,4 +1,3 @@
 # Capture One
-PROCESS-NAME,Capture One 12
-PROCESS-NAME,Capture One 20
-DOMAIN-KEYWORD,activation.phaseone.com
+PROCESS-NAME,Capture One*
+DOMAIN-SUFFIX,activation.phaseone.com
