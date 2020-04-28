@@ -35,11 +35,9 @@ DOMAIN-KEYWORD,outlook.com
 DOMAIN-KEYWORD,github.com
 
 # Wacom
-DOMAIN-SUFFIX,wacom.com
+DOMAIN-KEYWORD,wacom.com
 PROCESS-NAME,Wacom Desktop Center
 
 # Others
 DOMAIN-KEYWORD,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
-DOMAIN-KEYWORD,adobe.com
-DOMAIN-KEYWORD,wacom.com
