@@ -9,6 +9,8 @@ DOMAIN-KEYWORD,typekit
 PROCESS-NAME,Core Sync
 PROCESS-NAME,Adobe*
 
+# 测速
+DOMAIN-KEYWORD,speedtest
 
 # Alibaba
 DOMAIN-SUFFIX,alibaba.com
