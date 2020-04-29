@@ -1,16 +1,16 @@
 # SpeedTest
-DOMAIN-KEYWORD,speedtest.net
-DOMAIN-KEYWORD,fast.com
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,fast.com
 
 # Adult
-DOMAIN-KEYWORD,91porn.com
-DOMAIN-KEYWORD,t66y.com
-DOMAIN-KEYWORD,xvideos.com
-DOMAIN-KEYWORD,nyaa.si
+DOMAIN-SUFFIX,91porn.com
+DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,nyaa.si
 
 # Gallery
-DOMAIN-KEYWORD,500px.com
-DOMAIN-KEYWORD,yande.re
+DOMAIN-SUFFIX,500px.com
+DOMAIN-SUFFIX,yande.re
 
 # Telegram
 DOMAIN-SUFFIX,t.me
@@ -29,15 +29,15 @@ DOMAIN-SUFFIX,wixmp.com
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,azure
 DOMAIN-KEYWORD,sharepoint.com
-DOMAIN-KEYWORD,office365.com
-DOMAIN-KEYWORD,live.cn
-DOMAIN-KEYWORD,outlook.com
-DOMAIN-KEYWORD,github.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,live.cn
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,github.com
 
 # Wacom
 DOMAIN-KEYWORD,wacom.com
-PROCESS-NAME,Wacom Desktop Center
+PROCESS-NAME,Wacom*
 
 # Others
-DOMAIN-KEYWORD,lastpass.com
+DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
