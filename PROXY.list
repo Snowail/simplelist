@@ -772,6 +772,10 @@ DOMAIN-SUFFIX,app.smartmailcloud.com
 DOMAIN-SUFFIX,gate.hockeyapp.net
 DOMAIN-SUFFIX,smartmailcloud.com
 
+# > dropbox
+DOMAIN-KEYWORD,dropbox
+PROCESS-NAME,Dropbox
+
 # Others
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
