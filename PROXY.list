@@ -488,6 +488,7 @@ DOMAIN-SUFFIX,uspto.gov
 DOMAIN-SUFFIX,ustream.tv
 DOMAIN-SUFFIX,v.gd
 DOMAIN-SUFFIX,v2ex.co
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2ray.com
 DOMAIN-SUFFIX,van001.com
 DOMAIN-SUFFIX,vanpeople.com
@@ -637,10 +638,6 @@ DOMAIN-SUFFIX,waveprotocol.org
 DOMAIN-SUFFIX,webmproject.org
 DOMAIN-SUFFIX,webrtc.org
 
-# > V2EX
-DOMAIN-SUFFIX,v2ex.com
-
-DOMAIN-KEYWORD,dlercloud
 
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
@@ -710,9 +707,6 @@ IP-CIDR,75.126.0.0/16,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
 
-# SpeedTest
-DOMAIN-SUFFIX,speedtest.net
-DOMAIN-SUFFIX,fast.com
 
 # Adult
 DOMAIN-SUFFIX,91porn.com
@@ -731,6 +725,16 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 PROCESS-NAME,Telegram
+
+# Apple
+DOMAIN,ocsp.apple.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,entrust.net
+DOMAIN,ocsp.verisign.net
+DOMAIN,itunes.apple.com,force-remote-dns
+DOMAIN-SUFFIX,apps.apple.com,force-remote-dns
+DOMAIN-SUFFIX,blobstore.apple.com
+PROCESS-NAME,News
 
 # Deviantart
 DOMAIN-SUFFIX,static.parastorage.com
