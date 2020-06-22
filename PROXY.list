@@ -736,6 +736,13 @@ DOMAIN-SUFFIX,apps.apple.com,force-remote-dns
 DOMAIN-SUFFIX,blobstore.apple.com
 PROCESS-NAME,News
 
+
+# Adobe
+DOMAIN-KEYWORD,adobe
+DOMAIN-KEYWORD,typekit
+PROCESS-NAME,Core Sync
+PROCESS-NAME,Adobe*
+
 # Deviantart
 DOMAIN-SUFFIX,static.parastorage.com
 DOMAIN-SUFFIX,deviantart.com
