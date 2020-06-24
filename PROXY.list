@@ -737,12 +737,6 @@ DOMAIN-SUFFIX,blobstore.apple.com
 PROCESS-NAME,News
 
 
-# Adobe
-DOMAIN-KEYWORD,adobe
-DOMAIN-KEYWORD,typekit
-PROCESS-NAME,Core Sync
-PROCESS-NAME,Adobe*
-PROCESS-NAME,Creative Cloud
 
 # Deviantart
 DOMAIN-SUFFIX,static.parastorage.com

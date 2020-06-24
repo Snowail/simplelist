@@ -7,6 +7,14 @@ PROCESS-NAME,ssr-local
 # 测速
 DOMAIN-KEYWORD,speedtest
 
+
+# Adobe
+DOMAIN-KEYWORD,adobe
+DOMAIN-KEYWORD,typekit
+PROCESS-NAME,Core Sync
+PROCESS-NAME,Adobe*
+PROCESS-NAME,Creative Cloud
+
 # Alibaba
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
