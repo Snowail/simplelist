@@ -41,8 +41,8 @@ ipv6: true
 external-controller: 0.0.0.0:9090
 
 # 存放配置文件的相对路径，或存放网页静态资源的绝对路径
-# Clash core 将会将其部署在 http://{{external-controller}}/ui
-# external-ui: folder
+# Clash core 将会将其部署c在 http://{{external-controller}}/ui
+external-ui: /root/.config/clash/clash-dashboard
 
 # RESTful API 的口令 (可选)
 # 通过 HTTP 头中 Authorization: Bearer ${secret} 参数来验证口令
