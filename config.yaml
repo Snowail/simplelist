@@ -93,10 +93,6 @@ hosts:
   #   - tls://dot.360.cn
   #   - tls://dns.alidns.com
 
-hosts:
-  "dns.alidns.com": 223.5.5.5
-
-
 proxies:
   null
 
