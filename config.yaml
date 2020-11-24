@@ -50,7 +50,7 @@ external-controller: 0.0.0.0:9090
 # secret: ""
 
 # 出站网卡接口
-interface-name: WLAN
+# interface-name: WLAN
 
 # DNS 服务器和建立连接时的 静态 Hosts, 仅在 dns.enhanced-mode 模式为 redir-host 生效
 # 支持通配符域名 (例如: *.clash.dev, *.foo.*.example.com )
@@ -62,24 +62,24 @@ hosts:
   # 'alpha.clash.dev': '::1'
   # DNS 服务器配置(可选；若不配置，程序内置的 DNS 服务会被关闭)
 
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: true # 当此选项为 false 时, AAAA 请求将返回空
+# dns:
+#   enable: true
+#   listen: 0.0.0.0:53
+#   ipv6: true
 
   # 以下填写的 DNS 服务器将会被用来解析 DNS 服务的域名
   # 仅填写 DNS 服务器的 IP 地址
-  default-nameserver:
-    - 1.2.4.8
-    - 223.5.5.5
-    - 114.114.114.114
-    - 119.29.29.29
-  enhanced-mode: redir-host # 或 fake-ip
-  fake-ip-filter:
-    - 'dns.msftncsi.com'
-    - 'www.msftncsi.com'
-    - 'www.msftconnecttest.com'
-  fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
+  # default-nameserver:
+  #   - 1.2.4.8
+  #   - 223.5.5.5
+  #   - 114.114.114.114
+  #   - 119.29.29.29
+  # enhanced-mode: redir-host # 或 fake-ip
+  # fake-ip-filter:
+  #   - 'dns.msftncsi.com'
+  #   - 'www.msftncsi.com'
+  #   - 'www.msftconnecttest.com'
+  # fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
   # use-hosts: true # 查询 hosts 并返回 IP 记录
   # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
   # fake-ip-filter:
@@ -88,14 +88,14 @@ dns:
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
-  nameserver:
-    - tls://13800000000.rubyfish.cn
-    - tls://dot.360.cn
-    - tls://dns.alidns.com
+  # nameserver:
+  #   - tls://13800000000.rubyfish.cn
+  #   - tls://dot.360.cn
+  #   - tls://dns.alidns.com
 
 hosts:
   "dns.alidns.com": 223.5.5.5
-  
+
 
 proxies:
   null
