@@ -101,6 +101,7 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰香港
+      - 🇯🇵日本
 
   - name: "🇭🇰香港"
     type: url-test
@@ -110,13 +111,30 @@ proxy-groups:
     interval: 600
     timeout: 5
 
+  - name: "🇯🇵日本"
+    type: url-test
+    use:
+      - jp
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 600
+    timeout: 5
+
 proxy-providers:
   hk:
     type: http
-    url: "https://api.exfluxnetworks.com:4433/link/q7xb6nEJJ6seniHn?list=clash&reg\
-      ex=(%E9%A6%99%E6%B8%AF%20IEPL)"
+    url: "https://snowail.me/exfluxhk"
     interval: 3600
     path: ./hk.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  jp:
+    type: http
+    url: "https://snowail.me/exfluxjp"
+    interval: 3600
+    path: ./jp.yaml
     health-check:
       enable: true
       interval: 600
