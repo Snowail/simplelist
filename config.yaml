@@ -94,7 +94,18 @@ hosts:
   #   - tls://dns.alidns.com
 
 proxies:
-  null
+  -
+    name: 'IDC'
+    type: ss
+    server: cloud.snowail.com
+    port: 4443
+    cipher: xchacha20-ietf-poly1305
+    password: fallendown
+    udp: true
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: cloud.snowail.com
 
 proxy-groups:
   - name: Proxy
