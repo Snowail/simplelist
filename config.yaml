@@ -94,7 +94,14 @@ hosts:
   #   - tls://dns.alidns.com
 
 proxies:
-  null
+  -
+    name: 'IDC'
+    type: ss
+    server: cloud.snowail.com
+    port: 4443
+    cipher: aes-256-gcm
+    password: fallendown
+    udp: true
 
 proxy-groups:
   - name: Proxy
@@ -102,6 +109,7 @@ proxy-groups:
     proxies:
       - 🇭🇰香港
       - 🇯🇵日本
+      - IDC
 
   - name: "🇭🇰香港"
     type: url-test
