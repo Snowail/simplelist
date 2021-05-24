@@ -786,7 +786,10 @@ DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-KEYWORD,dropbox
 PROCESS-NAME,Dropbox
 
+# > copymange
+DOMAIN-SUFFIX,copymanga.com
+DOMAIN-SUFFIX,mangafunc.fun
+
 # Others
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
-DOMAIN-SUFFIX,copymanga.com
