@@ -3,6 +3,9 @@ PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 PROCESS-NAME,ssr-local
 
+# Sharepoint
+DOMAIN-KEYWORD,sharepoint.com
+DOMAIN-KEYWORD,sharepoint.cn
 
 # 测速
 DOMAIN-KEYWORD,speedtest
