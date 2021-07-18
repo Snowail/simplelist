@@ -6,6 +6,7 @@ PROCESS-NAME,ssr-local
 # Sharepoint
 DOMAIN-KEYWORD,sharepoint.com
 DOMAIN-KEYWORD,sharepoint.cn
+DOMAIN-KEYWORD,microsoftgraph
 
 # 测速
 DOMAIN-KEYWORD,speedtest

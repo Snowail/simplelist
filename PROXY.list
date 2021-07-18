@@ -270,7 +270,6 @@ DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,megaupload.com
-DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,mindnode.com
 DOMAIN-SUFFIX,mlssoccer.com
 DOMAIN-SUFFIX,mobile01.com
@@ -746,14 +745,6 @@ PROCESS-NAME,Creative Cloud
 DOMAIN-SUFFIX,static.parastorage.com
 DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,wixmp.com
-
-# Microsoft
-DOMAIN-KEYWORD,microsoft
-DOMAIN-KEYWORD,azure
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,live.cn
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,github.com
 
 # Wacom
 DOMAIN-KEYWORD,wacom.com
