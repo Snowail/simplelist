@@ -783,3 +783,6 @@ DOMAIN-SUFFIX,mangafunc.fun
 # Others
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-KEYWORD,e-hentai.org,force-remote-dns
+DOMAIN-KEYWORD,exhentai.org,force-remote-dns
+DOMAIN-KEYWORD,hath.network,force-remote-dns
