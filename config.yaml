@@ -75,16 +75,6 @@ hosts:
   #   - 114.114.114.114
   #   - 119.29.29.29
   # enhanced-mode: redir-host # 或 fake-ip
-  # fake-ip-filter:
-  #   - 'dns.msftncsi.com'
-  #   - 'www.msftncsi.com'
-  #   - 'www.msftconnecttest.com'
-  # fake-ip-range: 198.18.0.1/16 # Fake IP 地址池 (CIDR 形式)
-  # use-hosts: true # 查询 hosts 并返回 IP 记录
-  # 在以下列表的域名将不会被解析为 fake ip，这些域名相关的解析请求将会返回它们真实的 IP 地址
-  # fake-ip-filter:
-  #   - '*.lan'
-  #   - localhost.ptlogin2.qq.com
   # 支持 UDP / TCP / DoT / DoH 协议的 DNS 服务，可以指明具体的连接端口号。
   # 所有 DNS 请求将会直接发送到服务器，不经过任何代理。
   # Clash 会使用最先获得的解析记录回复 DNS 请求
@@ -95,58 +85,42 @@ hosts:
 
 proxies:
   -
-    name: 'IDC'
-    type: ss
-    server: cloud.snowail.com
-    port: 4443
-    cipher: aes-256-gcm
-    password: fallendown
-    udp: true
+    name: '🇺🇸美国'
+    type: snell
+    server: 103.149.145.174
+    port: 24498
+    psk: 6qlH1q1J9lUOQho9Elb9riDPI9ce35l
+    obfs-opts:
+      mode: http # 或 tls
+      host: snowail.me
+
+  -
+    name: '🇭🇰香港'
+    type: snell
+    server: 34.92.98.165
+    port: 19239
+    psk: tMXiGfer7BgfRr1OW17rmlWOwTjcB9t
+    obfs-opts:
+      mode: http # 或 tls
+      host: snowail.me
+
+  -
+    name: '🇯🇵日本'
+    type: snell
+    server: 140.238.57.74
+    port: 23465
+    psk: a1h9p982kyHVcyLXnbeISod3kskt5XS
+    obfs-opts:
+      mode: http # 或 tls
+      host: snowail.me
 
 proxy-groups:
   - name: Proxy
     type: select
     proxies:
+      - 🇺🇸美国
       - 🇭🇰香港
       - 🇯🇵日本
-      - IDC
-
-  - name: "🇭🇰香港"
-    type: url-test
-    use:
-      - hk
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 600
-    timeout: 5
-
-  - name: "🇯🇵日本"
-    type: url-test
-    use:
-      - jp
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 600
-    timeout: 5
-
-proxy-providers:
-  hk:
-    type: http
-    url: "https://snowail.me/clashhk"
-    interval: 3600
-    path: ./hk.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-
-  jp:
-    type: http
-    url: "https://snowail.me/clashjp"
-    interval: 3600
-    path: ./jp.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
 
 rules:
 
