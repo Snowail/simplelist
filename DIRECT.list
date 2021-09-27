@@ -3,12 +3,16 @@ PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 PROCESS-NAME,ssr-local
 
+# 自有站
+
+DOMAIN-KEYWORD,snowail.me
+DOMAIN-KEYWORD,snowail.com
+DOMAIN-KEYWORD,stimagflooring.com
+
 # Sharepoint
 DOMAIN-KEYWORD,sharepoint.com
 DOMAIN-KEYWORD,sharepoint.cn
 DOMAIN-KEYWORD,microsoftgraph
-
-DOMAIN-KEYWORD,stimagflooring.com
 
 
 # Alibaba
