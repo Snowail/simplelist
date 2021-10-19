@@ -87,9 +87,9 @@ proxies:
   -
     name: '🇺🇸美国'
     type: snell
-    server: 103.149.145.174
-    port: 24498
-    psk: 6qlH1q1J9lUOQho9Elb9riDPI9ce35l
+    server: 54.185.94.141
+    port: 15328
+    psk: y1lvuLvIjBpNvPSgM7bPaPw54nMJkRx
     obfs-opts:
       mode: http # 或 tls
       host: snowail.me
@@ -97,7 +97,7 @@ proxies:
   -
     name: '🇭🇰香港'
     type: snell
-    server: 34.92.98.165
+    server: 35.215.187.238
     port: 19239
     psk: tMXiGfer7BgfRr1OW17rmlWOwTjcB9t
     obfs-opts:
