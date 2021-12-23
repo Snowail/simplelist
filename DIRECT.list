@@ -41,3 +41,8 @@ PROCESS-NAME,Plex
 
 # emby
 IP-CIDR,34.92.98.165/32
+
+# 小红书
+PROCESS-NAME,discover
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
