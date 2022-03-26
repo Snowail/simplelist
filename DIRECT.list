@@ -46,3 +46,6 @@ IP-CIDR,34.92.98.165/32
 PROCESS-NAME,discover
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
+
+# 奇怪的平台
+DOMAIN-SUFFIX,big2035.com
