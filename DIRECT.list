@@ -9,10 +9,11 @@ DOMAIN-KEYWORD,snowail.me
 DOMAIN-KEYWORD,snowail.com
 DOMAIN-KEYWORD,stimagflooring.com
 
-# Sharepoint
+# OneDrive
 DOMAIN-KEYWORD,sharepoint.com
 DOMAIN-KEYWORD,sharepoint.cn
-DOMAIN-KEYWORD,microsoftgraph
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,windows.com
 
 
 # Alibaba
