@@ -10,10 +10,13 @@ DOMAIN-KEYWORD,snowail.com
 DOMAIN-KEYWORD,stimagflooring.com
 
 # OneDrive
+PROCESS-NAME,OneDrive
+DOMAIN-SUFFIX,onedrive.com
 DOMAIN-KEYWORD,sharepoint.com
 DOMAIN-KEYWORD,sharepoint.cn
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,trafficmanager.net
 
 
 # Alibaba
