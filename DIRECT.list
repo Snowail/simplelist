@@ -3,6 +3,10 @@ PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 PROCESS-NAME,ssr-local
 
+# BT软件
+PROCESS-NAME,qBittorrent
+
+
 # 自有站
 
 DOMAIN-KEYWORD,snowail.me
