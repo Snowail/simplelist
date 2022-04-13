@@ -1,8 +1,12 @@
 # DMM
+DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm-r18.co.jp
 DOMAIN-SUFFIX,shinobi.jp
-
+DOMAIN-SUFFIX,gsspat.jp
+DOMAIN-SUFFIX,genieedmp.com
+DOMAIN-SUFFIX,navismithapis-cdn.com
+DOMAIN-SUFFIX,p-smith.com
 
 # SoundCloud
 DOMAIN-SUFFIX,soundcloud.com
