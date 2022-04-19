@@ -4,14 +4,9 @@ PROCESS-NAME,ss-local
 PROCESS-NAME,ssr-local
 
 # BT软件
-PROCESS-NAME,qBittorrent
-
-
-# 自有站
-
-DOMAIN-KEYWORD,snowail.me
-DOMAIN-KEYWORD,snowail.com
-DOMAIN-KEYWORD,stimagflooring.com
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,aria2c
+PROCESS-NAME,transmission
 
 # OneDrive
 PROCESS-NAME,OneDrive
@@ -21,7 +16,6 @@ DOMAIN-KEYWORD,sharepoint.cn
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,trafficmanager.net
-
 
 # Alibaba
 DOMAIN-SUFFIX,alibaba.com
@@ -44,12 +38,6 @@ DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidubcr.com
 DOMAIN-SUFFIX,bdstatic.com
-
-# plex
-PROCESS-NAME,Plex
-
-# emby
-IP-CIDR,34.92.98.165/32
 
 # 小红书
 PROCESS-NAME,discover
