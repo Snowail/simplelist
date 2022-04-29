@@ -3,10 +3,6 @@ PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 PROCESS-NAME,ssr-local
 
-# BT软件
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,aria2c
-PROCESS-NAME,transmission
 
 # OneDrive
 PROCESS-NAME,OneDrive
