@@ -1,6 +1,7 @@
 # macOS
 PROCESS-NAME,地图
 PROCESS-NAME,maps
+PROCESS-NAME,com.apple.geod
 
 # 代理软件
 PROCESS-NAME,v2ray
