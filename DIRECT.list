@@ -1,3 +1,7 @@
+# macOS
+PROCESS-NAME,地图
+PROCESS-NAME,maps
+
 # 代理软件
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
