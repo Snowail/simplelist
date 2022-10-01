@@ -776,11 +776,28 @@ DOMAIN-SUFFIX,smartmailcloud.com
 DOMAIN-KEYWORD,dropbox
 PROCESS-NAME,Dropbox
 
-# > copymange
-DOMAIN-SUFFIX,copymanga.com
-DOMAIN-SUFFIX,mangafunc.fun
+# DMM
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,dmm.co.jp
+DOMAIN-SUFFIX,dmm-r18.co.jp
+DOMAIN-SUFFIX,shinobi.jp
+DOMAIN-SUFFIX,gsspat.jp
+DOMAIN-SUFFIX,genieedmp.com
+DOMAIN-SUFFIX,navismithapis-cdn.com
+DOMAIN-SUFFIX,p-smith.com
+
+# SoundCloud
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,sndcdn.com
+
+# onamae
+DOMAIN-KEYWORD,onamae.com
+DOMAIN-KEYWORD,onamae.ne.jp
+DOMAIN-KEYWORD,studio-takada.jp
+
 
 # Others
+PROCESS-NAME, 邮件
 DOMAIN-SUFFIX,lastpass.com
 DOMAIN-SUFFIX,oraclecloud.com
 DOMAIN-KEYWORD,e-hentai.org,force-remote-dns

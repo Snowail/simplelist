@@ -1,7 +1,0 @@
-# 网易云音乐
-DOMAIN-KEYWORD,music.163.com
-DOMAIN-KEYWORD,music.126.com
-DOMAIN-KEYWORD,netease
-PROCESS-NAME,网易云音乐
-USER-AGENT,NeteaseMusic*
-USER-AGENT,网易云音乐*
