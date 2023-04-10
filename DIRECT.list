@@ -1,13 +1,12 @@
-# macOS
-PROCESS-NAME,地图
-PROCESS-NAME,maps
-PROCESS-NAME,com.apple.geod
-
 # 代理软件
 PROCESS-NAME,v2ray
+PROCESS-NAME,xray
+PROCESS-NAME,clash
+PROCESS-NAME,naive
+PROCESS-NAME,trojan
+PROCESS-NAME,trojan-go
 PROCESS-NAME,ss-local
-PROCESS-NAME,ssr-local
-
+PROCESS-NAME,privoxy
 
 # OneDrive
 PROCESS-NAME,OneDrive
@@ -44,7 +43,3 @@ DOMAIN-SUFFIX,bdstatic.com
 PROCESS-NAME,discover
 DOMAIN-SUFFIX,xiaohongshu.com
 DOMAIN-SUFFIX,xhscdn.com
-
-# 奇怪的平台
-DOMAIN-SUFFIX,big2035.com
-DOMAIN-KEYWORD,speedtest
