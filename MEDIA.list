@@ -1,42 +1,37 @@
 # Netflix
-USER-AGENT,Argo*
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
+netflix.com
+netflix.net
+nflxext.com
+nflximg.com
+nflximg.net
+nflxso.net
+nflxvideo.net
 
 # Bahamut
-USER-AGENT,Anime*
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,cdn.hinet.net
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,fna.fbcdn.net
+gamer.com.tw
+bahamut.com.tw
+cdn.hinet.net
+ampproject.org
+fna.fbcdn.net
 
 # Hulu
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
+hulu.com
+huluim.com
+hulustream.com
 
 # HBO NOW & HBO GO
-USER-AGENT,HBO%20NOW*
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogoasia.hk
+execute-api.ap-southeast-1.amazonaws.com
+hbo.com
+hbogo.com
+hboasia.com
+hbogo.com
+hbogoasia.hk
 
 # PBS
-USER-AGENT,PBS*
-DOMAIN-SUFFIX,pbs.org
+pbs.org
 
 # Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
+pscdn.co
+scdn.co
+spotify.com
+spoti.fi

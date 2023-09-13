@@ -1,6 +1,2 @@
 # Capture One
-PROCESS-NAME,Capture One*
-DOMAIN-SUFFIX,activation.phaseone.com
-
-# 漫画猫
-URL-REGEX,^https?:\/\/(www.)?comicat\.org/public/imgbed/.*
+activation.phaseone.com

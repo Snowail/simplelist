@@ -1,45 +1,33 @@
-# 代理软件
-PROCESS-NAME,v2ray
-PROCESS-NAME,xray
-PROCESS-NAME,clash
-PROCESS-NAME,naive
-PROCESS-NAME,trojan
-PROCESS-NAME,trojan-go
-PROCESS-NAME,ss-local
-PROCESS-NAME,privoxy
-
 # OneDrive
-PROCESS-NAME,OneDrive
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-KEYWORD,sharepoint.com
-DOMAIN-KEYWORD,sharepoint.cn
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,trafficmanager.net
+onedrive.com
+sharepoint.com
+sharepoint.cn
+microsoft.com
+windows.com
+trafficmanager.net
 
 # Alibaba
-DOMAIN-SUFFIX,alibaba.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,dingtalk.com
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,tmall.com
-DOMAIN-SUFFIX,ykimg.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,xiami.com
-DOMAIN-SUFFIX,xiami.net
-DOMAIN-KEYWORD,aliyun
+alibaba.com
+alicdn.com
+amap.com
+dingtalk.com
+taobao.com
+tmall.com
+ykimg.com
+youku.com
+xiami.com
+xiami.net
+aliyun.com
 
 # Sina
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibo.cn
+weibo.com
+weibo.cn
 
 # Baidu
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,baidubcr.com
-DOMAIN-SUFFIX,bdstatic.com
+baidu.com
+baidubcr.com
+bdstatic.com
 
 # 小红书
-PROCESS-NAME,discover
-DOMAIN-SUFFIX,xiaohongshu.com
-DOMAIN-SUFFIX,xhscdn.com
+xiaohongshu.com
+xhscdn.com
