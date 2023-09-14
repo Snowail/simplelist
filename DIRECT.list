@@ -4,34 +4,25 @@ bing.com
 .bing.cn
 
 # OneDrive
-onedrive.com
-sharepoint.com
-sharepoint.cn
-microsoft.com
-windows.com
-trafficmanager.net
+.onedrive.com
+.sharepoint.com
+.sharepoint.cn
+.microsoft.com
+.windows.com
+.trafficmanager.net
 
 # Alibaba
-alibaba.com
-alicdn.com
-amap.com
-dingtalk.com
-taobao.com
-tmall.com
-ykimg.com
-youku.com
-xiami.com
-xiami.net
-aliyun.com
-
-# Sina
-weibo.com
-weibo.cn
-
-# Baidu
-baidu.com
-baidubcr.com
-bdstatic.com
+.alibaba.com
+.alicdn.com
+.amap.com
+.dingtalk.com
+.taobao.com
+.tmall.com
+.ykimg.com
+.youku.com
+.xiami.com
+.xiami.net
+.aliyun.com
 
 # 小红书
 xiaohongshu.com
